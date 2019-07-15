@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Micro Loans</string>
+    <string name="debt_title">Amount Outstanding</string>
+    <string name="new_debtor">New Debtor</string>
+    <string name="debtors_name_hint">Debtor\'s Name</string>
+    <string name="delete_debtor">Delete Debtor</string>
+    <string name="create_debt">New Debt</string>
+    <string name="create_debtor_name">Debtor Name</string>
+    <string name="debt_dialog_ok">Create Debt</string>
+    <string name="debt_dialog_cancel">Cancel</string>
+</resources>

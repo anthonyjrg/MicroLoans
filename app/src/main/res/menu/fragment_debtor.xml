@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/debtor_delete_button"
+        android:icon="@drawable/delete_button"
+        android:title="@string/delete_debtor"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/create_debt_button"
+        android:icon="@drawable/new_button"
+        android:title="@string/create_debt"
+        app:showAsAction=""/>
+</menu>

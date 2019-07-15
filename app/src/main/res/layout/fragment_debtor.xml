@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/debt_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:layout_marginTop="24dp">
+    <TextView
+        android:id="@+id/debtor_name"
+        android:layout_gravity="fill"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_columnSpan="2"
+        tools:text="Anthony Gibson"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:textSize="28sp"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/debt_recycler_view"
+        android:gravity="fill"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_columnSpan="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:gravity="fill"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_columnSpan="2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+</android.widget.GridLayout>
